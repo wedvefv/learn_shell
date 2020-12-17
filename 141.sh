@@ -2,6 +2,7 @@
 # 测试shell扩展${a:+b}
 # 如果a存在不是空，则使用b的值
 
+
 prepend() { 
 	if [ -d "$2" ] 
 	then
