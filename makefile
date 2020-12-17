@@ -1,5 +1,6 @@
+dat=`date +'%Y-%m-%d %H:%M:%S'`
 all:
-	dd=`date +"%Y-%m-%d %H:%M:%S"`
+	echo $(echo $(dat))
 	git add .
-	git commit -m echo ${dd}
+	git commit -m 1
 	git push origin main
