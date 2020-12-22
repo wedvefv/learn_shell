@@ -92,3 +92,20 @@ function isHuiwen(word){
 }
 
 console.log(isHuiwen("hello olleh"))
+
+	
+function fact(n){
+	var s = new stack()
+	while(n >1){
+		s.push(n--)
+	}
+	var product  = 1 
+	while(s.len() > 0 ){
+		product += s.pop()
+	}
+
+	return product;
+}
+
+
+console.log(fact(4))
