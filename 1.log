@@ -1,0 +1,60 @@
+Node {
+  data: 3,
+  left: null,
+  right: Node {
+    data: 16,
+    left: null,
+    right: Node {
+      data: 23,
+      left: [Node],
+      right: [Node],
+      show: [Function: show]
+    },
+    show: [Function: show]
+  },
+  show: [Function: show]
+}
+null
+Node {
+  data: 16,
+  left: null,
+  right: Node {
+    data: 23,
+    left: Node { data: 22, left: null, right: null, show: [Function: show] },
+    right: Node {
+      data: 45,
+      left: [Node],
+      right: [Node],
+      show: [Function: show]
+    },
+    show: [Function: show]
+  },
+  show: [Function: show]
+}
+null
+Node {
+  data: 23,
+  left: Node { data: 22, left: null, right: null, show: [Function: show] },
+  right: Node {
+    data: 45,
+    left: Node { data: 37, left: null, right: null, show: [Function: show] },
+    right: Node { data: 99, left: null, right: null, show: [Function: show] },
+    show: [Function: show]
+  },
+  show: [Function: show]
+}
+Node { data: 22, left: null, right: null, show: [Function: show] }
+null
+null
+Node {
+  data: 45,
+  left: Node { data: 37, left: null, right: null, show: [Function: show] },
+  right: Node { data: 99, left: null, right: null, show: [Function: show] },
+  show: [Function: show]
+}
+Node { data: 37, left: null, right: null, show: [Function: show] }
+null
+null
+Node { data: 99, left: null, right: null, show: [Function: show] }
+null
+null
