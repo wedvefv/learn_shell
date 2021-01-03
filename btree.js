@@ -69,8 +69,6 @@ nums.insert(22)
 nums.insert(45)
 nums.insert(99)
 nums.insert(37)
-
-
 // console.log(nums.root)
 inOrder(nums.root)
 
